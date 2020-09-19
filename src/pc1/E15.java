@@ -15,7 +15,7 @@ public class E15 {
         }
     }
     
-    public void vocal(){     
+    public void vocal(){       
         for(int x=0;x<cant;x++){
             char[] array=nombre[x].toCharArray();
             cont=0;
@@ -41,6 +41,7 @@ public class E15 {
                 mayor=nombre[i];
             }
         }
+        
         JOptionPane.showMessageDialog(null, "El nombre mas largo es: "+mayor);
     }     
 }
