@@ -15,7 +15,7 @@ public class E15 {
         }
     }
     
-    public void vocal(){     //miguel
+    public void vocal(){     
         for(int x=0;x<cant;x++){
             char[] array=nombre[x].toCharArray();
             cont=0;
